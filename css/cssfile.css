@@ -1,10 +1,10 @@
 
 
-@import url("http://fonts.googleapis.com/css?family=Helvetica:200,300italic,400,400italic,500,500italic,600,600italic");
+/* @import url("http://fonts.googleapis.com/css?family=Helvetica:200,300italic,400,400italic,500,500italic,600,600italic");
 
-@import url("http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,600,600italic");
+@import url("http://fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500,500italic,600,600italic"); */
 
-*{
+/* *{
   font-family:'Roboto','Helvetica',sans-serif;
   margin:0px;
   padding:0px;
@@ -15,6 +15,35 @@
   text-decoration:none;
   background-color:inherit;
   -webkit-text-size-adjust:none;
+} */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-VariableFont_wdth,wght.woff2") format("woff2"),
+       url("fonts/Roboto/Roboto-VariableFont_wdth,wght.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.woff2") format("woff2"),
+       url("fonts/Roboto/Roboto-Italic-VariableFont_wdth,wght.woff") format("woff");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+* {
+  font-family: "Roboto",'Helvetica',sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4em;
+  text-decoration: none;
+  background-color: inherit;
+  -webkit-text-size-adjust: none;
 }
 
 /*******************************************************************************
