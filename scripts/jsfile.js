@@ -12,6 +12,7 @@ $('a[id=josep]'        ).attr('href','https://www.cemfi.es/~pijoan/');
 $('a[id=pedro]'        ).attr('href','https://www.cemfi.es/~mira/');
 $('a[id=kopecky]'        ).attr('href','https://karenkopecky.net/');
 $('a[id=greenwood]'        ).attr('href','https://www.jeremygreenwood.net/');
+$('a[id=garstenauer]'        ).attr('href','https://violagar.wordpress.com/');
 
 
 /* Defined links options *******************************************************/

@@ -193,6 +193,12 @@ h2{ /*paper*/
   color:black;
   font-size:inherit;
 }
+h3{ /*paper*/
+  /* color:#006400; */
+  color:black;
+  font-size:inherit;
+    font-style: italic;  
+}
 .subsection{
   margin-bottom:15px;
   line-height:1.6;
