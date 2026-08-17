@@ -1,0 +1,3 @@
+# CV source and LaTeX build files (publish only the rendered PDF)
+files/CV_Chiocchio.*
+!files/CV_Chiocchio.pdf
