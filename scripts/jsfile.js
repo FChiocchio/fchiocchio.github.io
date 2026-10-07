@@ -67,4 +67,11 @@ function toggleFolder() {
     content.style.display = "none";
   }
 }
+
+function toggleTeachingFolder(button, contentId) {
+  const content = document.getElementById(contentId);
+  const isExpanded = button.getAttribute('aria-expanded') === 'true';
+  content.style.display = isExpanded ? 'none' : 'block';
+  button.setAttribute('aria-expanded', String(!isExpanded));
+}
 /******************************************************************************/

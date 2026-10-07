@@ -266,6 +266,27 @@ button:hover{
   display: block;
   margin: 0px 0;
 }
+
+button.teaching-folder {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+button.teaching-folder:hover,
+button.teaching-folder:focus-visible {
+  border: 0;
+  background: none;
+  color: #018191;
+}
+.teaching-folder-content {
+  margin-top: 4px;
+}
 /* Download all button */
 /* .download-all {
   margin-top: 10px;
