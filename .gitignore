@@ -1,3 +1,6 @@
 # CV source and LaTeX build files (publish only the rendered PDF)
 files/CV_Chiocchio.*
 !files/CV_Chiocchio.pdf
+
+# Keep the superseded local draft off the published website
+files/Papers/WhyNotTaxIt.pdf
